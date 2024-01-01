@@ -1,0 +1,5 @@
+numpy==1.26.2
+pandas==2.1.4
+clickhouse-connect==0.6.23
+pyodbc==5.0.1
+pyarrow==14.0.2
