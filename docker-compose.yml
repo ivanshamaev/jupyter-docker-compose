@@ -3,6 +3,7 @@ services:
   jupyter:
     container_name: jupyter_notebook
     build: .
+    restart: unless-stopped
     ports:
       - 8888:8888
     volumes:
